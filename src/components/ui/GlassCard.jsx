@@ -5,11 +5,12 @@ export default function GlassCard({
   return (
     <div
       className={`
-        bg-white/10
-        backdrop-blur-xl
-        border border-white/20
-        shadow-xl
-        rounded-3xl
+        bg-white/15
+        backdrop-blur-md
+        border border-white/30
+        rounded-[32px]
+        shadow-2xl
+        shadow-pink-300/30
         ${className}
       `}
     >

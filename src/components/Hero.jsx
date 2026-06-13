@@ -1,9 +1,5 @@
 import { motion } from "framer-motion";
 import GlassCard from "./ui/GlassCard";
-import FloatingElements from "./FloatingElements";
-import wallpaper from "../assets/images/Background.png";
-import sakura from "../assets/images/Sakura.png";
-import SakuraRain from "./SakuraRain";
 
 export default function Hero() {
   return (
@@ -18,30 +14,6 @@ export default function Hero() {
         px-6
       "
     >
-      {/* Background */}
-      <div
-        className="
-          absolute inset-0
-        "
-        style={{ 
-          backgroundImage: `url(${wallpaper})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-         }}
-      />
-      <div
-        classname="
-          absolute
-          inset-0
-          bg-pink-100/20  
-        "
-      />
-
-      {/* Floating Sakura & Hearts */}
-      <FloatingElements />
-
-      <SakuraRain />
 
       {/* Hero Content */}
       <motion.div
@@ -56,9 +28,12 @@ export default function Hero() {
         transition={{
           duration: 1,
         }}
-        className="relative z-10 w-full max-w-sm"
+        className="relative z-10 w-full max-w-lg"
       >
-        <GlassCard className="p-8 text-center">
+        <GlassCard className="
+          p-12
+          text-center
+          ">
           <p className="text-4xl mb-4">
             🌸
           </p>
@@ -84,7 +59,7 @@ export default function Hero() {
             className="
               mt-4
               text-5xl
-              md:text-5xl
+              md:text-6xl
               font-extrabold
               text-pink-100
               drop-shadow-lg
@@ -134,13 +109,13 @@ export default function Hero() {
           text-center
         "
       >
-        <p className="
+        <button className="
           text-md 
           opacity-90
           text-white
         ">
           Scroll
-        </p>
+        </button>
 
         <div className="text-2xl">
           ↓

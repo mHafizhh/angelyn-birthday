@@ -8,7 +8,7 @@ export default function GlassCard({
         bg-white/15
         backdrop-blur-md
         border border-white/30
-        rounded-[32px]
+        rounded-4xl
         shadow-2xl
         shadow-pink-300/30
         ${className}

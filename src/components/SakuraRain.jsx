@@ -11,7 +11,7 @@ export default function SakuraRain() {
           key={index}
           src={sakura}
           alt="sakura"
-          className="absolute pointer-events-none"
+          className="fixed pointer-events-none"
           style={{
             width: `${20 + Math.random() * 20}px`,
             left: `${Math.random() * 100}%`,

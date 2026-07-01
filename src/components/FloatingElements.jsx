@@ -25,7 +25,7 @@ export default function FloatingElements() {
       {items.map((item, index) => (
         <motion.div
           key={index}
-          className={`absolute ${item.className}`}
+          className={`fixed ${item.className}`}
           animate={{
             y: [0, -15, 0],
           }}

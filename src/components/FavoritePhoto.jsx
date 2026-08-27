@@ -72,7 +72,7 @@ export default function FavoritePhoto() {
 
           {/* Description */}
           <p className="mt-6 text-white text-lg">
-            One smile from you makes my whole day brighter.
+            Our first memory
           </p>
 
           {/* Heart */}

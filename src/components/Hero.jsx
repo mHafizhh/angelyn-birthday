@@ -73,7 +73,7 @@ export default function Hero() {
               tracking-wide
             "
           >
-            Sayang💖
+            Angelyn💖
           </h2>
 
           {/* Description */}

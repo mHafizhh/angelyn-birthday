@@ -212,7 +212,7 @@ export default function Letter() {
                 >
                   Happy birthday, love! 🎂❤️ <br />
                   I feel incredibly lucky to have you in my life. Sometimes I don't say it enough, but having you beside me is something I'm genuinely grateful for.
-                  You've become such a meaningful part of my life, and I wouldn't want it any other way. <br /> <br />
+                  You've become such a meaningful part of my life. <br /> <br />
                   I love your kindness, your little habits, your way of thinking, and even the small things you probably don't realize I notice. 
                   There's just something about you that makes being with you feel easy and right. <br /> <br />
                   Thank you for being exactly who you are, and for being my favorite person to come home to, talk to, laugh with, and share life with. 

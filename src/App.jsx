@@ -5,6 +5,7 @@ import FloatingElements from "./components/FloatingElements";
 import FavoritePhoto from "./components/FavoritePhoto";
 import Letter from "./components/Letter";
 import Gallery from "./components/Gallery";
+import Reasons from "./components/Reasons";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <FavoritePhoto />
         <Letter />
         <Gallery />
+        <Reasons />
       </main>
 
     </>

@@ -3,12 +3,12 @@ import { motion, AnimatePresence } from "framer-motion";
 import GlassCard from "./ui/GlassCard";
 
 // Ganti dengan foto-foto kamu
-import photo1 from "../assets/images/photo1.jpg";
-import photo2 from "../assets/images/photo2.jpg";
-import photo3 from "../assets/images/photo3.jpg";
-import photo4 from "../assets/images/photo4.jpg";
-import photo5 from "../assets/images/photo5.jpg";
-import photo6 from "../assets/images/photo6.jpg";
+import photo1 from "../assets/images/Photo1.jpg";
+import photo2 from "../assets/images/Photo2.jpg";
+import photo3 from "../assets/images/Photo3.jpg";
+import photo4 from "../assets/images/Photo4.jpg";
+import photo5 from "../assets/images/Photo5.jpg";
+import photo6 from "../assets/images/Photo6.jpg";
 
 const memories = [
   {

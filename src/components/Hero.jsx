@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import GlassCard from "./ui/GlassCard";
+import { Link } from "react-scroll";
 
 export default function Hero() {
   return (
@@ -30,14 +31,19 @@ export default function Hero() {
         }}
         className="relative z-10 w-full max-w-lg"
       >
-        <GlassCard className="
-          p-12
-          text-center
-          ">
+        <GlassCard
+          className="
+            p-12
+            text-center
+          "
+        >
+
+          {/* Sakura */}
           <p className="text-4xl mb-4">
             🌸
           </p>
 
+          {/* Title */}
           <h1
             className="
               text-6xl
@@ -55,6 +61,7 @@ export default function Hero() {
             BIRTHDAY
           </h1>
 
+          {/* Name */}
           <h2
             className="
               mt-4
@@ -66,15 +73,22 @@ export default function Hero() {
               tracking-wide
             "
           >
-            ANGELYN💖
+            Sayang💖
           </h2>
 
+          {/* Description */}
           <p className="mt-6 text-white/90 font-semibold">
             You are my favorite adventure.
           </p>
 
-          <button
+          {/* Story Button */}
+          <Link
+            to="favorite-photo"
+            smooth={true}
+            duration={900}
+            offset={0}
             className="
+              inline-block
               mt-8
               px-6
               py-3
@@ -84,12 +98,15 @@ export default function Hero() {
               font-semibold
               transition
               hover:scale-105
+              cursor-pointer
             "
           >
             Our Story Starts Here 💖
-          </button>
+          </Link>
+
         </GlassCard>
       </motion.div>
+
 
       {/* Scroll Indicator */}
       <motion.div
@@ -109,18 +126,29 @@ export default function Hero() {
           text-center
         "
       >
-        <button className="
-          text-md 
-          opacity-90
-          text-white
-        ">
-          Scroll
-        </button>
 
-        <div className="text-2xl">
-          ↓
-        </div>
+        <Link
+          to="favorite-photo"
+          smooth={true}
+          duration={900}
+          offset={0}
+          className="
+            cursor-pointer
+            opacity-90
+            text-white
+          "
+        >
+          <p className="text-md">
+            Scroll
+          </p>
+
+          <div className="text-2xl">
+            ↓
+          </div>
+        </Link>
+
       </motion.div>
+
     </section>
   );
 }
